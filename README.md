@@ -27,7 +27,7 @@ Proyecto de API RESTful con autenticacion JWT y gestion de usuarios desarrollado
 
 1. Clonar el repositorio:
 ```bash
-git clone https://github.com/Mangel8m/pro3-evaluacion.git
+git clone https://github.com/Mangel8m/P3_26848978.git
 cd P3_26848978
 ```
 
@@ -110,18 +110,20 @@ P3_26848978/
 │   └── auth.js          # Middleware de autenticacion JWT
 ├── models/
 │   └── User.js          # Modelo de usuario
+├── public/
+│   └── index.html       # Archivos estaticos
 ├── routes/
 │   ├── index.js         # Rutas principales
 │   ├── auth.js          # Rutas de autenticacion
 │   └── users.js         # Rutas CRUD de usuarios
 ├── tests/
 │   └── app.test.js      # Pruebas automatizadas
-├── .github/
-│   └── workflows/
-│       └── ci.yml       # Configuracion de GitHub Actions
+├── .env.example         # Ejemplo de variables de entorno
+├── .gitignore           # Archivos ignorados por Git
 ├── app.js               # Aplicacion Express principal
 ├── package.json         # Dependencias y scripts
-└── README.md
+├── render.yaml          # Configuracion de Render
+└── README.md            # Documentacion del proyecto
 ```
 
 ## Tecnologias Utilizadas
