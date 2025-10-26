@@ -27,7 +27,7 @@ Proyecto de API RESTful con autenticacion JWT y gestion de usuarios desarrollado
 
 1. Clonar el repositorio:
 ```bash
-git clone https://github.com/usuario/P3_26848978.git
+git clone https://github.com/Mangel8m/pro3-evaluacion.git
 cd P3_26848978
 ```
 
@@ -40,7 +40,7 @@ npm install
 Crear archivo `.env` con:
 ```
 PORT=3000
-JWT_SECRET=tu_clave_secreta_aqui
+JWT_SECRET=26848978
 NODE_ENV=development
 ```
 
